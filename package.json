@@ -1,0 +1,7 @@
+{
+    "name": "laboratorio",
+    "version": "0.0.1",
+    "dependencies": {
+        "rpio": "^0.9.19"
+    }
+}
