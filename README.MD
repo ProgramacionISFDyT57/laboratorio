@@ -40,5 +40,8 @@ Introduce el concepto de OUTPUT, definiendo un PIN como entrada utilizando un bo
 * `package.json`
 Indroducción al concepto de librerías en Node. Este archivo define las características de este repositorio, entre ellas, las librerías a utilizar.
 
+* `README.MD`
+Este archivo. Contiene la descripción del repositorio. Está escrito en `Markdown`.
+
 ### Instrucciones de uso
 Para poder ejecutar estos ejemplos, es necesario descargar o clonar este repositorio en alguna SBC (Single Board Computer) o controlador que disponga de GPIOs (Pines de entrada/salida de uso general). Luego, hay que ejecutar el comando `npm install` dentro de la carpeta donde están los archivos, para instalar la librería `rpio`.
