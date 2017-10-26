@@ -4,7 +4,7 @@
 #### Profesores: Vicente Mazzaro / Ezequiel Falcón
 
 ### Introducción
-Este repositorio contiene todos los ejemplos y ejercicios vistos en clase sobre cómo utilizar Javascript/Node para interactuar con dispositivos electrónicos. 
+Este repositorio contiene todos los ejemplos y ejercicios vistos en clase sobre cómo utilizar Javascript/Node para interactuar con dispositivos electrónicos.
 La temática se centró en cómo un sencillo fragmento de código Javascript, utilizando los conocimientos adquiridos a lo largo de las 2 materias, les permitió comprender e interactuar con los archivos ejemplificados en clase.
 Adicionalmente este repositorio en sí mismo introduce un concepto nuevo, propio de Programación 2: Control de versionado de software.
 
@@ -16,8 +16,15 @@ Adicionalmente este repositorio en sí mismo introduce un concepto nuevo, propio
 * Diferencia entre `var` y `let`/`const`
 
 #### Arquitectura de Computadores
-* Compuertas lógicas
-* 
+* Introducción al uso del protoboard para el diseño y testeo de prototipos.
+* Utilización de componentes electrónicos fisicos (LEDs, resistencias, cables).
+* Utilización de compuertas `NAND` (HD74LS00P) y `NOR` (HD74LS02P), presentación de sus respectivas hojas de datos.
+* Introdución y uso de sistemas embebidos: `RASPBERRY PI 3 MODEL B`.
+
+#### RASPBERRY PI 3 MODEL B
+* Repaso de los distintos componentes de hardawe y periféricos (microprocesador, memorias ram y flash, USB, HDMI, RJ45).
+* Utilización del GPIO del sistema para accionar elementos externos, tanto como entradas o salidas.
+* Comunicación a través de WIFI al sistema.
 
 ### Archivos
 * `demo.js`
