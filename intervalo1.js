@@ -1,10 +1,11 @@
 const rpio = require('rpio');   //Librería para acceder al hardware
 const pin = +process.argv[2];
-const segundos = +process.argv[3];
+const tiempoPrender = +process.argv[3];
+const tiempoApagar = +process.argv[4];
 rpio.open(pin, rpio.OUTPUT, rpio.LOW);
 while(true) {
-    rpio.sleep(segundos);
+    rpio.msleep(tiempoPrender);
     rpio.write(pin, rpio.HIGH);
-    rpio.sleep(segundos);
+    rpio.msleep(tiempoApagar);
     rpio.write(pin, rpio.LOW);
 }
